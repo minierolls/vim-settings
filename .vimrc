@@ -1,5 +1,11 @@
 syntax on
 filetype plugin indent on
+set number
+
+set foldmethod=syntax
+set nofoldenable
+
+autocmd BufRead,BufNewFile *.tex set filetype=plaintex
 
 " ===Tabs===
 set tabstop=4  " show existing tab as 4 spaces
