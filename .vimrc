@@ -41,6 +41,16 @@ nnoremap ; :
 
 execute pathogen#infect()
 
+" ===vim-airline===
+" ===/vim-airline===
+
+" ===vim-airline-themes===
+let g:airline_theme='bubblegum'
+" ===/vim-airline-themes===
+
+" ===vim-gitgutter===
+" ===/vim-gitgutter===
+
 " ===Syntastic===
 " ===/Syntastic===
 
