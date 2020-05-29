@@ -49,6 +49,7 @@ let g:airline_theme='bubblegum'
 " ===/vim-airline-themes===
 
 " ===vim-gitgutter===
+set updatetime=100
 " ===/vim-gitgutter===
 
 " ===Syntastic===
