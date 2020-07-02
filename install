@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# Copyright (c) 2020 John Namgung
+
+_dp="0544"
+_fp="0444"
+_sp="0744"
+
+dest_dir="${1:-${HOME}}"
+
+[ ! -d "$dest_dir" ] && { echo "Error: Directory $dest_dir not found."; exit ; }
+
+git submodule update --init --recursive
+
+rm $dest_dir/.vimrc
+rm -rf $dest_dir/.vim
+
+ln -s $(pwd)/.vimrc $dest_dir
+ln -s $(pwd)/.vim $dest_dir
