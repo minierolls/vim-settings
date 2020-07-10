@@ -1,0 +1,15 @@
+# This sets the `.gitignore` to be a *whitelist* by default.
+**/*
+!*/
+
+
+# Whitelist
+!.gitignore
+!.gitmodules
+!LICENSE
+!README.md
+!.vim/
+!.vimrc
+!install
+
+# Blacklist (overrides Whitelist)
