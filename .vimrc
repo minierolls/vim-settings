@@ -1,6 +1,8 @@
 syntax on
 filetype plugin indent on
 
+let g:netrw_dirhistmax=0
+
 set backspace=indent,eol,start
 
 set number
