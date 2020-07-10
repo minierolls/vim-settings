@@ -14,9 +14,11 @@ set nofoldenable
 autocmd BufRead,BufNewFile *.tex set filetype=plaintex
 
 " ===Tabs===
-set tabstop=4  " show existing tab as 4 spaces
-set shiftwidth=4  " when indenting with '>', use 4 space width
-" set expandtab  " insert spaces instead of tab
+set tabstop=2  " show existing tab as 2 spaces
+set softtabstop=2
+set shiftwidth=2  " when indenting with '>', use 2 space width
+set expandtab  " insert spaces instead of tab
+set smarttab
 " ===/Tabs===
 
 " ===Trim Trailing Whitespace===
