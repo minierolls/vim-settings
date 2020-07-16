@@ -32,12 +32,13 @@ endfun
 autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 " ===/Trim Trailing Whitespace===
 
-" ===WQ Capitalization Fix===
+" ===WQE Capitalization Fix===
+command E e
 command W w
 command Q q
 command Wq wq
 command WQ wq
-" ===/WQ Capitalization Fix===
+" ===/WQE Capitalization Fix===
 
 " ===Semicolon to Colon===
 nnoremap ; :
@@ -81,3 +82,5 @@ ino <M-g> <esc>:call JumpToDef()<cr>i
 " ===/Plugins===
 " ==============
 
+set termguicolors
+colorscheme dracula
