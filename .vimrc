@@ -54,7 +54,7 @@ execute pathogen#infect()
 " ===/vim-airline===
 
 " ===vim-airline-themes===
-let g:airline_theme='bubblegum'
+let g:airline_theme='base16_mocha'
 " ===/vim-airline-themes===
 
 " ===vim-gitgutter===
